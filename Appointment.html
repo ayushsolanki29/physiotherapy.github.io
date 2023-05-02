@@ -4,7 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Appointment</title>
+    <title>Physiotherapy Appointments - Dr. Meet Solanki</title>
+    <meta name="description" content="Book an appointment with Dr. Meet Solanki for personalized physiotherapy services that meet your individual needs.">
+    <meta name="keywords" content="physiotherapy appointments, book appointment, personalized services, Dr. Meet Solanki">
+    <link rel="canonical" href="https://dr-meet-solanki.netlify.app/Appointment.html">
+    <!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dr-meet-solanki.netlify.app/">
+<meta property="og:title" content="Physiotherapy Appointments - Dr. Meet Solanki">
+<meta property="og:description" content="Book an appointment with Dr. Meet Solanki for personalized physiotherapy services that meet your individual needs.">
+<meta property="og:image" content="https://dr-meet-solanki.netlify.app/images/og-appointment.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://dr-meet-solanki.netlify.app/">
+<meta property="twitter:title" content="Physiotherapy Appointments - Dr. Meet Solanki">
+<meta property="twitter:description" content="Book an appointment with Dr. Meet Solanki for personalized physiotherapy services that meet your individual needs.">
+<meta property="twitter:image" content="https://dr-meet-solanki.netlify.app/images/og-image.png">
+ 
     <link rel="icon" type="image/png" href="source/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="source/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="source/favicon-32x32.png">
@@ -28,18 +45,25 @@
 </head>
 
 <body>
-    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+    <div class="page-wrapper bg-blue p-t-20 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Book Appointment</h2>
+                    <div class="card-title">
+                        <h2 class="title">Book Appointment </h2>
+                      <a href="index.html"><h2 class="title go-home">Go Home</h2></a> 
+                    </div>
+                    
 
-                    <form action="https://formspree.io/f/mqkonenv" method="POST" id="Form" onsubmit="return validateAppointmentDate()">
+                  
+                    <!-- <form action="https://formspree.io/f/mqkonenv" method="POST" id="Form" onsubmit="return validateAppointmentDate()"> -->
+                    <form onsubmit="return validateAppointmentDate()">
                         <div class="row row-space">
+                         
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">first name</label>
-                                    <input class="input--style-4" type="text" name="first_name" required>
+                                    <input class="input--style-4" type="text" name="first_name" autofocus required>
                                 </div>
                             </div>
                             <div class="col-2">
@@ -54,9 +78,9 @@
                                 <div class="input-group">
                                     <label class="label">Appointment Date</label>
                                     <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="Appointment Date"
-                                            required>
-                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                        <input class="input--style-4" type="date" name="Appointment Date"  min="{{ date('Y-m-d') }}" required>
+
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +120,7 @@
                                     <div class="input-group">
                                         <label class="label">Age</label>
 
-                                        <input class="input--style-4" type="number" name="Age" id="" min="15" max="100" required>
+                                        <input class="input--style-4" type="number" name="Age" min="1" max="100" required>
 
                                     </div>
                                 </div>
@@ -106,78 +130,47 @@
                         <div class="input-group">
                             <label class="label">Treatments</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select type="text" id="subject" name="Treatments" name="subject" required>
-                                    <option disabled="disabled" selected="selected">Choose option</option>
-                                    <option id="other-option" onclick="other()">Other</option>
+                                <select type="text" id="subject" name="Treatments" name="subject" required onchange="showOther()">
+                                  <option disabled="disabled" selected="selected">Choose option</option>
+                                  <option value="other">Other</option>
                                 </select>
-                                <div class="col-2" id="other-field">
-                                    <div class="input-group">
-                                        <label class="label">other Details</label>
-                                        <input class="input--style-4" type="text" id="other-input" name="other-input">
-                                    </div>
+                                <div class="col-2" id="other-field" style="display:none;">
+                                  <div class="input-group">
+                                    <label class="label">Which Treatments You Want ?</label>
+                                    <input class="input--style-4" type="text" id="other-input" name="other-input">
+                                  </div>
                                 </div>
                                 <div class="select-dropdown"></div>
-                            </div>
+                              </div>
                         </div>
-
+                        <div class="FormTerms">
+                        <input type="checkbox" class="accept" name="Terms-Accepted" id="Terms-Accepted" required>
+                        <label class="label" for="Terms Accepted">Submission of this form indicates agreement to our   <a href="policy.html"> Policy</a> & <a href="terms.html" target="_blank">Terms</a></label>
+                    </div>
+                       <div class="FormBtn">
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
-
-                            <a href="index.html"> 
-                                <button class="button btn btn--radius-2" type="button">
-                                    <svg class="svg-icon" fill="none" height="20px" viewBox="0 0 20 20" width="20px"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <g stroke="#ff342b" stroke-linecap="round" stroke-width="1.5">
-                                            <path
-                                                d="m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468">
-                                            </path>
-                                            <path
-                                                d="m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986">
-                                            </path>
-                                        </g>
-                                    </svg>
-                                    <span class="lable">Return To Home</span>
-                                </button></a>
+                            
                         </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 bg-red" type="reset">Reset</button>
+                            
+                        </div></div>
+                        
                     </form>
                 </div>
             </div>
         </div>
     </div>
+  
     <script src="source/scripts/language.js"></script>
     <script src="source/scripts/data-api/en-data.js"></script>
     <script src="source/scripts/data-api/guj-data.js"></script>
     <script src="source/scripts/select-data.js"></script>
-    
-   
-    <script>
-        function validateAppointmentDate() {
-  // Get the selected date from the input element
-  var selectedDate = new Date(document.querySelector('input[name="Appointment Date"]').value);
-  
-  // Get today's date
-  var today = new Date();
-  today.setHours(0, 0, 0, 0); // Set the time to midnight to ignore any time differences
-  
-  // Compare the selected date with today's date
-  if (selectedDate < today) {
-      alert("Please Select a Date That is Not Earlier Than Today's Date.");
-      return false; // Cancel the form submission
-  }
-  document.querySelector('form').reset();
+    <script src="source/scripts/appointment.js"></script>
 
-  return true; // Allow the form submission
-}
-    </script>
-    
-    
-  
    <script src="source/Appointment/vendor/jquery/jquery.min.js"></script>
    <script src="source/Appointment/vendor/select2/select2.min.js"></script>
-   <script src="source/Appointment/vendor/datepicker/moment.min.js"></script>
-   <script src="source/Appointment/vendor/datepicker/daterangepicker.js"></script>
-
- 
    <script src="source/Appointment/js/global.js"></script>
 
 </body>
