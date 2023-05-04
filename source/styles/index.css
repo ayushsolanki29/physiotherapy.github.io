@@ -198,18 +198,11 @@ p{
     color:var(--text-white);
 }
 .top-right-sec img{
-    border-radius: 45%;
+    border-radius: 50%;
+    transform: scaleX(-1);
+    width: 80%;
 }
-.banner_wrapper .top-right-sec{
-    position:relative;
-    background-image:url('../../images/top-right-bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    display: flex;
-    align-items: flex-end;
-    justify-content:center;
-}
+
 
 .home .card:hover{
     -webkit-transform:translateY(-0.625rem);
@@ -611,11 +604,11 @@ p{
 
 @media (max-width: 467px) {
     .mvv-container .mvv-block .mvv-image{
-        width:150px;
+        width:310px;
         box-shadow: 0 0 5px 0px rgba(0, 0, 0, .1);
     }
     .mvv-container .mvv-block .mvv-content{
-        width: calc(100% - 150px);
+        width: calc(100% - 10px);
         text-align: justify;
         
     
@@ -836,4 +829,9 @@ p{
     to{
       transform: scaleX(1);
     }
+  }
+  #about-gallery img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
   }

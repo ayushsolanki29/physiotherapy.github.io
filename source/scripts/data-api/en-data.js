@@ -11,7 +11,7 @@ const cardData = [
   {
     id: 2,
     name: "Aftrer Fracture Exercise",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "We help fracture patients recover with personalized exercise programs designed to improve mobility and strength.",
     link: "Treatments-Details.html#after-fracture-exercise",
@@ -27,7 +27,7 @@ const cardData = [
   {
     id: 4,
     name: "Facial Palsy",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "Facial palsy is a condition that causes weakness or paralysis of the facial muscles. our experienced team provides personalized treatment plans to help patients regain facial mobility and restore their confidence",
     link: "Treatments-Details.html#facial-palsy",
@@ -43,7 +43,7 @@ const cardData = [
   {
     id: 6,
     name: "Frozen Shouder",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "Expert treatment for Frozen Shoulder at here. Personalized plans to reduce pain and improve mobility.Expert treatment for Frozen Shoulder at here.mprove mobility, and achieve their goals and achieve their goals",
     link: "Treatments-Details.html#frozen-shoulder",
@@ -59,7 +59,7 @@ const cardData = [
   {
     id: 8,
     name: "Back Pain",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "Get relief from Back Pain with our expert treatment at here. Personalized care to improve mobility and reduce discomfort.",
     link: "Treatments-Details.html#back-pain",
@@ -76,7 +76,7 @@ const cardData = [
   {
     id: 10,
     name: "Knee Exercise",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "Effective exercise programs to improve knee strength and mobility, customized for each patient.",
     link: "Treatments-Details.html#knee-exercise",
@@ -92,7 +92,7 @@ const cardData = [
   {
     id: 12,
     name: "Paralysis",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "We offer personalized treatment with paralysis regain strength. provide the best care possible.",
     link: "Treatments-Details.html#paralysis",
@@ -110,7 +110,7 @@ const cardData = [
   {
     id: 14,
     name: "Sciatica",
-    image: "../../../images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "We offer comprehensive treatment options for sciatica, including personalized plans to alleviate pain and improve mobility.",
     link: "Treatments-Details.html#sciatica",

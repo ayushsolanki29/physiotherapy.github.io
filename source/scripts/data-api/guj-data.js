@@ -11,7 +11,7 @@ const cardDataGujarati = [
   {
     id: 2,
     name: "અસ્થિભંગ પછીની કસરત",
-    image: "./images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "અમે ગતિશીલતા અને શક્તિને સુધારવા માટે રચાયેલ વ્યક્તિગત કસરત કાર્યક્રમો સાથે અસ્થિભંગના દર્દીઓને પુનઃપ્રાપ્ત કરવામાં મદદ કરીએ છીએ.",
     link: "Treatments-Details.html#after-fracture-exercise",
@@ -27,7 +27,7 @@ const cardDataGujarati = [
   {
     id: 4,
     name: "ચહેરાના લકવો",
-    image: "./images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "ચહેરાના લકવો એ એવી સ્થિતિ છે જે ચહેરાના સ્નાયુઓની નબળાઇ અથવા લકવોનું કારણ બને છે. અમારી અનુભવી ટીમ દર્દીઓને ચહેરાની ગતિશીલતા પુનઃપ્રાપ્ત કરવામાં અને તેમનો આત્મવિશ્વાસ પુનઃસ્થાપિત કરવામાં મદદ કરવા માટે વ્યક્તિગત સારવાર યોજનાઓ પ્રદાન કરે છે",
     link: "Treatments-Details.html#facial-palsy",
@@ -43,7 +43,7 @@ const cardDataGujarati = [
   {
     id: 6,
     name: "ફ્રોઝન શોલ્ડર",
-    image: "./images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "અહીં ફ્રોઝન શોલ્ડર માટે નિષ્ણાત સારવાર. પીડા ઘટાડવા અને ગતિશીલતા સુધારવા માટે વ્યક્તિગત યોજનાઓ. અહીં ફ્રોઝન શોલ્ડર માટે નિષ્ણાત સારવાર. ગતિશીલતામાં સુધારો કરો, અને તેમના લક્ષ્યોને પ્રાપ્ત કરો અને તેમના લક્ષ્યોને પ્રાપ્ત કરો  અને યોજનાઓ પ્રદાન કરે છે",
     link: "Treatments-Details.html#frozen-shoulder",
@@ -59,7 +59,7 @@ const cardDataGujarati = [
   {
     id: 8,
     name: "પીઠનો દુખાવો",
-    image: "./images/services/1.jpg",
+    image: "../../../images/services/2.jpg",
     description:
       "અહીં અમારી નિષ્ણાત સારવાર દ્વારા પીઠના દુખાવાથી રાહત મેળવો. ગતિશીલતા સુધારવા અને અગવડતા ઘટાડવા માટે વ્યક્તિગત સંભાળ.",
     link: "Treatments-Details.html#back-pain",
@@ -75,7 +75,7 @@ const cardDataGujarati = [
   {
     id: 10,
     name: "ઘૂંટણની કસરત",
-    image: "./images/services/1.jpg",
+    image: "./images/services/2.jpg",
     description:
       "ઘૂંટણની શક્તિ અને ગતિશીલતા સુધારવા માટે અસરકારક કસરત કાર્યક્રમો, દરેક દર્દી માટે કસ્ટમાઇઝ્ડ.",
     link: "Treatments-Details.html#knee-exercise",
@@ -91,7 +91,7 @@ const cardDataGujarati = [
   {
     id: 12,
     name: "લકવો",
-    image: "./images/services/1.jpg",
+    image: "./images/services/2.jpg",
     description:
       "અમે લકવો ફરીથી મજબૂતી સાથે વ્યક્તિગત સારવાર ઓફર કરીએ છીએ. શક્ય શ્રેષ્ઠ સંભાળ પૂરી પાડો.",
     link: "Treatments-Details.html#paralysis",
@@ -107,7 +107,7 @@ const cardDataGujarati = [
   {
     id: 14,
     name: "સાયટીટા",
-    image: "./images/services/1.jpg",
+    image: "./images/services/2.jpg",
     description:
       "અમે ગૃધ્રસી માટે વ્યાપક સારવાર વિકલ્પો પ્રદાન કરીએ છીએ, જેમાં પીડાને દૂર કરવા અને ગતિશીલતા સુધારવા માટે વ્યક્તિગત યોજનાઓનો સમાવેશ થાય છે.",
     link: "Treatments-Details.html#sciatica",
