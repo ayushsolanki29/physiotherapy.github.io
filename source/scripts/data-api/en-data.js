@@ -1,10 +1,10 @@
 const cardData = [
   {
     id: 1,
-    name: "Joint Replacement (TKR,THR)",
+    name: "Joint Replacement ",
     image: "../../../images/services/1.jpg",
     description:
-      "We provide joint replacement with or injury, treatment improve mobility",
+      "Our joint replacement program includes Total Knee Replacement (TKR) and Total Hip Replacement (THR) surgeries.",
     link: "Treatments-Details.html#joint-replacement-(tkr,-thr)",
   },
 

@@ -4,7 +4,7 @@ const cardDataGujarati = [
     name: "જોઈન્ટ રિપ્લેસમેન્ટ (TKR,THR)",
     image: "./images/services/1.jpg",
     description:
-      "અમે સંયુક્ત રિપ્લેસમેન્ટ પ્રદાન કરીએ છીએ અથવા ઇજા સાથે, સારવાર ગતિશીલતામાં સુધારો કરે છે",
+      "અમારા જોઈન્ટ રિપ્લેસમેન્ટ પ્રોગ્રામમાં ટોટલ ની રિપ્લેસમેન્ટ (TKR) અને ટોટલ હિપ રિપ્લેસમેન્ટ (THR) સર્જરીનો સમાવેશ થાય છે.",
     link: "Treatments-Details.html#joint-replacement-(tkr,-thr)",
   },
 
