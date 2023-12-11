@@ -1,6 +1,6 @@
 # Physiotherapy Website
 
-![Physiotherapy](https://raw.githubusercontent.com/ayushsolanki29/physiotherapy.github.io/main/images/physiotherapy.png)
+![Physiotherapy](https://dr-meet-solanki.netlify.app/images/physiotherapy.png)
 
 
 ## Overview
