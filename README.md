@@ -1,6 +1,6 @@
 # Physiotherapy Website
 
-![Physiotherapy](<add direct link to a screenshot or logo if available>)
+![Physiotherapy]([<add direct link to a screenshot or logo if available>](https://raw.githubusercontent.com/ayushsolanki29/physiotherapy.github.io/main/images/physiotherapy..png))
 
 ## Overview
 
