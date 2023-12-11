@@ -22,9 +22,4 @@ Visit the live site: [Physiotherapy Website](https://dr-meet-solanki.netlify.app
 - **Contact Form**: Easy-to-use form for users to get in touch.
 - **<Any other features specific to your project>**: Highlight additional functionalities.
 
-## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/physiotherapy.git
