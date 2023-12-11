@@ -1,7 +1,4 @@
-# Physiotherapy Website
-
-![Physiotherapy](https://dr-meet-solanki.netlify.app/images/physiotherapy.png)
-
+# Physiotherapist's Website
 
 ## Overview
 
